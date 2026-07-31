@@ -1,0 +1,9 @@
+	   MVI C,04
+	   MVI A,00
+	   MVI B,0E
+	  LOOP: ADD B
+	   DCR C
+JNZ LOOP
+STA 2500
+HLT
+	
